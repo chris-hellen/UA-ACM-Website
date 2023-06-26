@@ -10,11 +10,7 @@ const memberSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Email Required']
     },
-    phoneNumber: String,
-    dateJoined: {
-        type: Date,
-        date: Date.now()
-    }
+    phoneNumber: String
 });
 
 module.exports = mongoose.model('Member', memberSchema);

@@ -13,7 +13,7 @@ const getCOC = async (req,res) => {
 }
 
 const createMember = async (req,res) => {
-    const member = Member.create(req.body);
+    const member = await Member.create(req.body);
     res
         .status(200)
         .json({ member });
