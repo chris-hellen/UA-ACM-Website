@@ -35,6 +35,7 @@ const getAllMembers = async (req,res) => {
 module.exports = {
     getHomePage,
     getCOC,
+    getPrivacyPolicy,
     createMember,
-    getAllMembers
+    getAllMembers,
 }
