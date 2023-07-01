@@ -32,10 +32,19 @@ const getAllMembers = async (req,res) => {
         .json({ members });
 }
 
+const deleteMember = async (req,res) => {
+    const { id: memberID } = req.params;
+    const member = await Member.findOneAndDelete({ _id: memberID });
+    res
+        .status(200)
+        .json({ member });
+}
+
 module.exports = {
     getHomePage,
     getCOC,
     getPrivacyPolicy,
     createMember,
     getAllMembers,
+    deleteMember
 }

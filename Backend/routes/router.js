@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getHomePage, getCOC, createMember, getAllMembers, getPrivacyPolicy } = require('../controllers/controller');
+const { getHomePage, getCOC, createMember, getAllMembers, getPrivacyPolicy, deleteMember } = require('../controllers/controller');
 
 router.route('/')
     .get(getHomePage);
@@ -16,5 +16,8 @@ router.route('/add-member')
 
 router.route('/members')
     .get(getAllMembers);
+
+router.route('/delete/:id')
+    .delete(deleteMember);
 
 module.exports = router
