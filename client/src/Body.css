@@ -1,8 +1,7 @@
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px;
     grid-gap: 2em;
 }
 .about-section{
@@ -74,7 +73,8 @@
     content: '»';
     position: absolute;
     opacity: 0;
-    top: 14px;
+    top: 12px;
     right: -20px;
     transition: 0.5s;
 }
+
