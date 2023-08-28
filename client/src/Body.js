@@ -47,8 +47,18 @@ export default function Body() {
                 </p>
             </div>
             
-                <button className='join-btn'>Register Now</button>
+                
         </div>
+        <div class="officer-grid">
+            <h1 class='officer-header'>Officers</h1>
+            <h1 class='officer'>Daniel Tsark - President</h1>
+            <p>
+                Daniel Tsark is a cybersecurity major from Phoenix, Arizona. His body doesn't quit, just like him as president.
+            </p>
+        </div>
+        <footer>
+            <button className='join-btn'>Register Now</button>
+        </footer>
     </>
   )
 }
