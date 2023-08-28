@@ -53,7 +53,7 @@ export default function Body() {
             <h1 class='officer-header'>Officers</h1>
             <h1 class='officer'>Daniel Tsark - President</h1>
             <p>
-                Daniel Tsark is a cybersecurity major from Phoenix, Arizona. His body doesn't quit, just like him as president.
+                Daniel Tsark is a cybersecurity major from Phoenix, Arizona. His body doesn't quit.
             </p>
         </div>
         <footer>
