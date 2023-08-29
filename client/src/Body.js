@@ -5,6 +5,7 @@ import profpic from "./profpic.png"
 import codingpic from "./codingpic.png"
 import socialpic from "./socialpic.png"
 import treasurer from "./Treasurer.jpg"
+import president from "./president.jpg"
 
 
 
@@ -56,7 +57,7 @@ export default function Body() {
         <div class="officer-grid">
             <h1 class='officer-header'>Officers</h1>
             <h1 class='officer'>Daniel Tsark - President</h1>
-            <img class='treasurer' src={treasurer}/>
+            <img class='president' src={president}/>
             <p>
             Daniel Tsark, a junior from Chandler, Arizona, is pursuing a degree in cybersecurity. 
             Daniel is involved in numerous extra-curricular organizations outside of ACM, 
@@ -83,6 +84,16 @@ export default function Body() {
             </p>
         </div>
         <footer>
+            <p>Local ACM Chapter</p>
+            <p>Assoc. For Computing Machinery</p>
+            <p>Box 870290</p>
+            <p>Tuscaloosa, Alabama, 35487</p>
+            <p class='liability'>
+            <i>The views, opinions, and conclusions expressed in this page are those of the author or 
+            organization and not necessarily those of The University of Alabama or its officers and 
+            trustees. The content of this page has not been reviewed or approved by the University of 
+            Alabama, and the author or organization is soley responsible for its content.</i>
+            </p>
             <button className='join-btn'>Register Now</button>
         </footer>
     </>
