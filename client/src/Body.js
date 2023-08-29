@@ -16,7 +16,9 @@ export default function Body() {
             <img className='about-pic' src={aboutus} />
                 <h3 className='about-header'>About Us</h3>
                 <p className='about-p'>
-                UA ACM is the leading Computer Science club here at The Capstone. We pride ourselves on our ability to foster a passion for the world of computer science as well as give you the tools to thrive in the industry post-graduation!
+                UA ACM is the leading Computer Science club here at The Capstone. 
+                We pride ourselves on our ability to foster a passion for the world 
+                of computer science as well as give you the tools to thrive in the industry post-graduation!
                 </p>
             </div>
            
@@ -56,8 +58,10 @@ export default function Body() {
             <h1 class='officer'>Daniel Tsark - President</h1>
             <img class='treasurer' src={treasurer}/>
             <p>
-                Daniel Tsark is a junior cybersecurity major from Phoenix, Arizona. He is also involved on campus with the Mu
-                Chapter of Theta Tau, and his body doesn't quit!
+            Daniel Tsark, a junior from Chandler, Arizona, is pursuing a degree in cybersecurity. 
+            Daniel is involved in numerous extra-curricular organizations outside of ACM, 
+            with some of the most notable being his involvement in the Student Government Association, 
+            United Greek Council, and Theta Tau.
             </p>
             <h1 class='officer'>Angel Roa-Perez - Vice President</h1>
             <img class='treasurer' src={treasurer}/>
@@ -72,8 +76,10 @@ export default function Body() {
             <h1 class='officer'>Casey Derringer - Treasurer</h1>
             <img class='treasurer' src={treasurer}/>
             <p>
-                Casey Derringer is a sophomore computer science major from Dayton, Ohio. Along with serving as ACM Treasurer, he fences 
-                in the University of Alabama's fencing club.
+                Casey Derringer, a sophomore from Dayton, Ohio, is pursuing a degree in 
+                computer science. Along with serving as ACM Treasurer, he fences 
+                in the University of Alabama's fencing club, is a part of the UA Jazz Studies
+                program, and Theta Tau.
             </p>
         </div>
         <footer>
