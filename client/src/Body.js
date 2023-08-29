@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Body.css"
-import geoffry from "./Geoffry.PNG"
 import aboutus from "./about-us.png"
 import profpic from "./profpic.png"
 import codingpic from "./codingpic.png"
