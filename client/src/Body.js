@@ -1,6 +1,10 @@
 import React from 'react'
 import "./Body.css"
 import geoffry from "./Geoffry.PNG"
+import aboutus from "./about-us.png"
+import profpic from "./profpic.png"
+import codingpic from "./codingpic.png"
+import socialpic from "./socialpic.png"
 
 
 
@@ -11,7 +15,7 @@ export default function Body() {
        
         <div className='grid-container'>
             <div className='about-section'>
-            <img className='about-pic' src={geoffry} />
+            <img className='about-pic' src={aboutus} />
                 <h3 className='about-header'>About Us</h3>
                 <p className='about-p'>
                 UA ACM is the leading Computer Science club here at The Capstone. We pride ourselves on our ability to foster a passion for the world of computer science as well as give you the tools to thrive in the industry post-graduation!
@@ -19,7 +23,7 @@ export default function Body() {
             </div>
            
             <div className='professionalism-section'>
-            <img className='prof-pic' src={geoffry} />
+            <img className='prof-pic' src={profpic} />
                 <h3 className='prof-header'>Professionalism</h3>
                 <p className='prof-p'>
                     Bringing in companies from across the country, we put you in touch with 
@@ -28,7 +32,7 @@ export default function Body() {
                 </p>
             </div>
             <div className='coding-section'>
-            <img className='coding-pic' src={geoffry} />
+            <img className='coding-pic' src={codingpic} />
                 <h3 className='coding-header'>Coding</h3>
                 <p className='coding-p'>
                     Whether it be coding workshops, or hackathon opportunities, 
@@ -38,7 +42,7 @@ export default function Body() {
             </div>
           
             <div className='social-section'>
-            <img className='social-pic' src={geoffry} />
+            <img className='social-pic' src={socialpic} />
                 <h3 className='social-header'>Social</h3>
                 <p className='social-p'>
                     ACM puts you in touch with other Computer Science and Cybersecurity majors on

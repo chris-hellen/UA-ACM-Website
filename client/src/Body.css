@@ -5,9 +5,9 @@
     grid-gap: 2em;
 }
 .about-section{
-   padding: 15px;
-  border-style: solid;
-  border-radius: 8px;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 8px;
 }
 .professionalism-section{
     padding: 15px;
@@ -38,6 +38,13 @@
 .about-p, .prof-p, .coding-p, .social-p{
     font-size: 20px;
     color: gray;
+}
+
+.about-pic, .prof-pic, .coding-pic, .social-pic{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .officer-grid{
