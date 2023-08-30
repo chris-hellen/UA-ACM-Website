@@ -100,8 +100,16 @@ div.officer-grid > p{
     width: 40%;
 }
 
+.calendar > h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(191, 25, 25);
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
 iframe{
-    margin: 3em auto;
+    margin: 0 auto 3em auto;
     display: block;
     width: 70vw;
     height: 37vw;
@@ -161,5 +169,6 @@ footer > p{
     grid-column: 2 / 3;
     grid-row: 1 / 5;
     margin: auto;
+    padding: 0 1em;
 }
 
