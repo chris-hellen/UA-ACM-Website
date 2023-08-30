@@ -79,9 +79,13 @@ export default function Body() {
             <p>
                 Casey Derringer, a sophomore from Dayton, Ohio, is pursuing a degree in 
                 computer science. Along with serving as ACM Treasurer, he fences 
-                in the University of Alabama's fencing club, is a part of the UA Jazz Studies
-                program, and Theta Tau.
+                in the University of Alabama's fencing club, and is an active member in Theta Tau.
             </p>
+        </div>
+        <div class='calendar'>
+        <iframe src="https://calendar.google.com/calendar/embed?src=vfgqdivlam7s8b
+        ai2q63c9bot8%40group.calendar.google.com&ctz=America%2FChicago" 
+        styles={"border: 0"} frameborder="0" scrolling="no"></iframe>
         </div>
         <footer>
             <p>Local ACM Chapter</p>
