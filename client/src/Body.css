@@ -116,6 +116,7 @@ div.officer-grid > p{
     width: 35%;
 }
 
+<<<<<<< HEAD
 .calendar{
     background-color: rgb(223, 223, 223);
     padding-bottom: 3em;
@@ -123,16 +124,26 @@ div.officer-grid > p{
     padding: 7px;
 }
 
+=======
+>>>>>>> 48ebceceb81b1d42b94227819462dc519741d7bc
 .calendar > h1{
     text-align: center;
     font-size: 70px;
     color: rgb(191, 25, 25);
     margin: auto;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
     padding-top: 0.2em;
 }
 iframe{
     margin: 0 auto;
+=======
+    font-family: 'Montserrat', sans-serif;
+}
+
+iframe{
+    margin: 0 auto 3em auto;
+>>>>>>> 48ebceceb81b1d42b94227819462dc519741d7bc
     display: block;
     width: 70vw;
     height: 37vw;
@@ -224,3 +235,19 @@ footer{
     transition: 0.5s;
 }
 
+<<<<<<< HEAD
+=======
+footer > p{
+    text-align: center;
+    margin-block: 0.25em 0.25em;
+    grid-column: 1 / 2;
+}
+.liability{
+    font-size: 1.22em;
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+    margin: auto;
+    padding: 0 1em;
+}
+
+>>>>>>> 48ebceceb81b1d42b94227819462dc519741d7bc
