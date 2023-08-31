@@ -40,7 +40,7 @@ export default function Body() {
             <img className='coding-pic' src={codingpic} />
                 <h3 className='coding-header'>Coding</h3>
                 <p className='coding-p'>
-                    Whether it be coding workshops, or hackathon opportunities, 
+                    Whether it be coding workshops, hackathon opportunities, or competitive programming competitions,
                     ACM provides several different ways for you to be the 
                     best coder you can be. 
                 </p>
