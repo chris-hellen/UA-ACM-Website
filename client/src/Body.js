@@ -7,6 +7,7 @@ import socialpic from "./socialpic.png"
 import treasurer from "./Treasurer.jpg"
 import president from "./president.jpg"
 import secretary from "./secretary.jpg"
+import vp from "./vp.jpg"
 
 //Bio for Faculty Advisor
 //Contact us section of footer with president and secretary emails
@@ -39,7 +40,7 @@ export default function Body() {
             <img className='coding-pic' src={codingpic} />
                 <h3 className='coding-header'>Coding</h3>
                 <p className='coding-p'>
-                    Whether it be coding workshops, hackathon opportunities, or competitive coding competitions 
+                    Whether it be coding workshops, or hackathon opportunities, 
                     ACM provides several different ways for you to be the 
                     best coder you can be. 
                 </p>
@@ -62,23 +63,25 @@ export default function Body() {
             <h1 class='officer'>Daniel Tsark - President</h1>
             <img class='president' src={president}/>
             <p id="presbio">
-            Daniel Tsark, a junior from Chandler, Arizona, is pursuing a degree in cybersecurity. 
-            Daniel is involved in numerous extra-curricular organizations outside of ACM, 
-            with some of the most notable being his involvement in the Student Government Association, 
-            United Greek Council, and Theta Tau.
+                Daniel Tsark, a junior from Chandler, Arizona, is pursuing a degree in cybersecurity. 
+                Daniel is involved in numerous extra-curricular organizations outside of ACM, 
+                with some of the most notable being his involvement in the Student Government Association, 
+                United Greek Council, and Theta Tau.
             </p>
             <h1 class='officer'>Angel Roa-Perez - Vice President</h1>
-            <img class='treasurer' src={treasurer}/>
+            <img class='vp' src={vp}/>
             <p id="vpbio">
-                I literally know nothing about this guy soooooo? He's VP
+                Angel Roa-Perez, a sophomore from Tuscaloosa, Alabama, is pursuing a degree in Computer 
+                Engineering. Outside of his time with ACM, he is also occasionally involved with 
+                the UA Chess Club and plays Rec Soccer.
             </p>
             <h1 class='officer'>Liam Tucker - Secretary</h1>
             <img class='secretary' src={secretary}/>
             <p id="secbio">
-            Liam Tucker is a junior Computer Science major from Libertyville, IL. 
-            He is also an ambassador for Vote Everywhere, a UA chapter of the Andrew 
-            Goodman Foundation dedicated  to promoting voting and eliminating barriers 
-            to voting on campus and beyond .
+                Liam Tucker is a junior Computer Science major from Libertyville, IL. 
+                He is also an ambassador for Vote Everywhere, a UA chapter of the Andrew 
+                Goodman Foundation dedicated  to promoting voting and eliminating barriers 
+                to voting on campus and beyond.
             </p>
             <h1 class='officer'>Casey Derringer - Treasurer</h1>
             <img class='treasurer' src={treasurer}/>
@@ -90,9 +93,11 @@ export default function Body() {
         </div>
         <div class='calendar'>
             <h1>Events</h1>
+            <div class='border'>
             <iframe src="https://calendar.google.com/calendar/embed?src=vfgqdivlam7s8b
             ai2q63c9bot8%40group.calendar.google.com&ctz=America%2FChicago" 
-            styles={"border: 0"} frameborder="0" scrolling="no"></iframe>
+            styles={"border: 4px solid black"} frameborder="0" scrolling="no"></iframe>
+            </div>
         </div>
         <footer>
             <p>Local ACM Chapter</p>
