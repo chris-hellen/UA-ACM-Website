@@ -1,3 +1,6 @@
+html {
+    overflow-x: hidden;
+}
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -7,26 +10,24 @@
 }
 .about-section{
     padding: 15px;
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 8px;
 }
 .professionalism-section{
     padding: 15px;
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 8px;
-    padding: 10px;
-    position: relative;
     
 }
 
 .coding-section{
     padding: 15px;
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 8px;
 }
 .social-section{
     padding: 15px;
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 8px;
   
 }
@@ -69,38 +70,126 @@ h1.officer{
     text-align: center;
     font-size: 30px;
     color: rgb(191, 25, 25);
+    
 
 }
 div.officer-grid > p{
     grid-column: 2 / 3;
     font-size: 24px;
     color: rgb(191, 25, 25);
-    padding-left: 50px;
-    padding-right: 50px;
     background-color: rgb(240, 240, 240);
     border-style: solid;
     border-radius: 8px;
     text-align: center;
-    padding: 80px 30px;
-    margin: 0 1em 0 1em;
+    padding: 0 1em;
+    margin: 0 1em;
+}
+#presbio{
+    padding: 1.8em 1em;
+}
+#vpbio{
+    padding: 3em 1em;
+}
+#secbio{
+    padding: 3.75em 1em;
+}
+#tresbio{
+    padding: 3em 1em;
 }
 .treasurer{
     grid-column: 1 / 2;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    margin: auto;
+    width: 35%;
     height: auto;
 }
+.president{
+    grid-column: 1 / 2;
+    margin: auto;
+    height: auto;
+    width: 35%;
+    font-weight: 75;
+}
+.secretary {
+    grid-column: 1 / 2;
+    margin: auto;
+    height: auto;
+    width: 35%;
+}
 
+.calendar{
+    background-color: rgb(223, 223, 223);
+    padding-bottom: 3em;
+    border-style: solid black 3px;
+    padding: 7px;
+}
+
+.calendar > h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(191, 25, 25);
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0.2em;
+}
+iframe{
+    margin: 0 auto;
+    display: block;
+    width: 70vw;
+    height: 37vw;
+    padding-top: 0.5em;
+}
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: rgb(215, 215, 215);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: rgba(191, 25, 25, 0.221);
+}
+.presidentemail{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.secretaryemail{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.facultyemail{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.presidentemail, .secretaryemail, .facultyemail{
+    padding: 1em 0;
+    margin: auto;
+}
+footer > a:link{
+    color: black;
+}
+footer > h1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 0 auto;
+    padding: 0.25em 0;
+}
+
+footer > p{
+    text-align: center;
+    margin-block: 0;
+    padding: 1em 0;
+    grid-column: 1 / 2;
+}
+.liability{
+    font-size: 1.22em;
+    grid-column: 3 / 4;
+    grid-row: 1 / 5;
+    margin: auto;
+    padding: 0.5em 1em;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
 }
 .join-btn{
     height: 50px;
     width: 180px;
-    position: relative;
+    /* position: relative; */
     color: rgb(191,25,25);
     font-size: 20px;
     font-weight: 700;
@@ -112,6 +201,7 @@ footer {
     background: white;
     display: inline-block;
     transition: 0.5s;
+    grid-column: 1 / 4;
 }
 .join-btn:hover{
     opacity: 75%;
